@@ -1,9 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Reprocessing Example</title>
+    <title>Bridget</title>
+    <style>
+      body {
+        margin: 0
+      }
+      /* TBLR are offsets from window edges */
+      #sidebar1 {
+      position: fixed;
+      top: 0;
+      bottom: 67%;
+      left: 70%;
+      right: 0;
+      background: #e0e0e0;
+      color: gray;
+      text-align: center;
+    }
+    #sidebar2 {
+      position: fixed;
+      top: 33%;
+      bottom: 33%;
+      left: 70%;
+      right: 0;
+      background: #f0f0f0;
+      color: gray;
+      text-align: center;
+    }
+    #sidebar3 {
+      position: fixed;
+      top: 67%;
+      bottom: 0;
+      left: 70%;
+      right: 0;
+      background: #e0e0e0;
+      color: black;
+      text-align: center;
+    }
+    </style>
+    </style>
   </head>
   <body>
+    <div id="sidebar1">
+      Sidebar1
+    </div>
+    <div id="sidebar2">
+      Sidebar2
+    </div>
+    <div id="sidebar3">
+      Sidebar3
+    </div>
     <script src="./require_polyfill.js" data-main="lib/js/src/index.js" data-project-root="./"></script>
   </body>
 </html>
