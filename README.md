@@ -1,3 +1,7 @@
+Bridge card game using Reprocessing library
+
+First attempt using ReasonReact abandoned as too slow to deal cards in real time 10+ per sec
+
 Reprocessing Example
 ---
 
